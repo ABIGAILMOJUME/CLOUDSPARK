@@ -63,8 +63,8 @@ Let's Encrypt decided to be... let's call it "particular" about automatic certif
 ### The Solution
 When automation fails, we get creative:
 ```bash
-# The nuclear option that actually worked
-sudo certbot certonly --manual --preferred-challenges dns -d yourdomain.com
+# The option that actually worked
+sudo certbot certonly --manual --preferred-challenges dns -d semester2exam.duckdns.org
 ```
 This command bypassed the automatic verification and allowed manual DNS challenge completion. Sometimes you have to tell the robots exactly what to do, and this time, the robot listened.
 
